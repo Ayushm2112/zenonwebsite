@@ -1,0 +1,451 @@
+body {
+    font-family: 'Baloo Bhai 2', cursivev;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.logo img {
+    height: 65px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.mid {
+    display: block;
+    width: 35%;
+    margin: 15px 200px;
+}
+
+.mid a {
+    float: left;
+    display: block;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 20%;
+}
+
+.mid a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.mid a.active {
+    background-color: #ddd;
+    color: #000000;
+}
+
+.loginright {
+    position: absolute;
+    right: 120px;
+    top: 23px;
+    display: inline-block;
+}
+
+.right {
+    position: absolute;
+    right: 25px;
+    top: 35px;
+    display: inline-block;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 150px;
+}
+
+.topnav input[type=password] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 150px;
+}
+
+.right button {
+    padding: 6px;
+    margin-top: -4px;
+    margin-right: 16px;
+    background: rgb(78, 255, 107);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.right button:hover {
+    background: rgb(149, 255, 167);
+}
+
+.topnav .loginright button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: rgb(78, 255, 107);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .loginright button:hover {
+    background: rgb(149, 255, 167);
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .loginright {
+        float: none;
+    }
+    .topnav a,
+    .topnav input[type=text],
+    .topnav .loginright button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid rgb(102, 101, 101);
+    }
+}
+
+#bgimage {
+    background-image: url("http://rishitechindia.com/img/clients/contact1.jpg");
+    height: 400px;
+    filter: opacity(100%);
+}
+
+.search {
+    width: 100%;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #000000;
+    border-right: none;
+    padding: 5px;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #000000;
+}
+
+.searchTerm {
+    color: #000000;
+    font-size: 20px;
+}
+
+.searchButton {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: #000000;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.sr {
+    width: 40%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#text {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: rgba(6, 10, 15, 0.719);
+    border-radius: 50px;
+}
+
+.container {
+    width: 100%;
+    margin-top: 2px;
+}
+
+.bg1 {
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 690px;
+}
+
+.items {
+    margin: 40px;
+    margin-top: 80px;
+    width: 25%;
+    padding: 20px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: rgba(255, 255, 255, 0.384);
+    border: 5px solid #000000;
+    border-radius: 5px;
+    float: left;
+}
+
+.thumbnails {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    color: #000000;
+    padding: 0px 10px 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.items:hover {
+    color: black;
+    background-color: rgba(247, 226, 43, 0.274);
+}
+
+.container1 {
+    margin-top: 0%;
+    margin: 20px;
+    text-align: center;
+}
+
+.image {
+    background-image: url("services.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+    margin-bottom: 3px;
+}
+
+.container3 {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 10px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+}
+
+.bottom {
+    background-color: #000000;
+}
+
+.contactus {
+    position: absolute;
+    background-image: url("bookpen.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    filter: opacity(50px);
+    width: 100%;
+    max-width: 1800px;
+    padding-top: 3%;
+    padding-left: 50%;
+    padding-right: 3%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contactus h1 {
+    margin-top: 0;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+
+.textbox {
+    border: 4px solid rgb(0, 0, 0);
+    margin: 8px;
+    padding: 12px 8px;
+    border-radius: 8px;
+}
+
+.textbox label {
+    display: block;
+    text-align: left;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.textbox input,
+.textbox textarea {
+    position: sticky;
+    width: 100%;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.911);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.843);
+}
+
+#light {
+    background-image: url("light.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bgaboutus {
+    width: 100%;
+    max-width: 100%;
+}
+
+.about {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+
+.about h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.about p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.about li {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 30.5%;
+    margin-bottom: 40px;
+    padding: 0 8px;
+    margin-left: 22px;
+    margin-right: 20px;
+}
+
+.card {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.about-section {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.container7 {
+    padding: 0 16px;
+}
+
+.container7::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    height: auto;
+}
+
+.title {
+    color: grey;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.contactuspage {
+    position: absolute;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/26/13/12/pencils-1280558_1280.jpg");
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    max-width: 1800px;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.textbox1 {
+    border: 3px solid rgb(250, 250, 250);
+    margin: 8px;
+    padding: 12px 8px;
+    border-radius: 8px;
+}
+
+.textbox1 label {
+    display: block;
+    text-align: left;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.textbox1 input,
+.textbox1 textarea {
+    width: 100%;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.733);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.btn1 {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.733);
+    padding: 14px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 50%;
+    border: 4px solid black;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    color: rgba(255, 255, 255, 0.911);
+    background-color: white;
+}
