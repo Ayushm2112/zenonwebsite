@@ -1,6 +1,15 @@
 # zenonwebsite
 
-HI. I created this repository  which contains the project I developed  and the project is having  6 pages including login/logout and resister:
+HI. I created this repository  which contains the project I developed  and the project is having  6 pages including login/logout and resister.
+AIM:
+This Project aims is to provide an online courses & placement interface to equip students with 
+relevant skills to give them an opportunity to discover their passion and turn it into a career.
+
+TECHNOLOGY USED:
+In Frontend : HTML, CSS, BOOTSTRAP, JS.
+In Backend : Mysql, phpMyAdmin.
+
+
 HOME
 ![image](https://user-images.githubusercontent.com/69325896/196779987-45c530d8-875d-4f6b-90df-825fe92a34e8.png)
 
@@ -23,12 +32,4 @@ LOGIN/LOGOUT
 REGISTER
 ![image](https://user-images.githubusercontent.com/69325896/196780834-d801d195-fa67-44d6-8b7d-af7e88579c23.png)
 
-
-AIM:
-This Project aims is to provide an online courses & placement interface to equip students with 
-relevant skills to give them an opportunity to discover their passion and turn it into a career.
-
-TECHNOLOGY USED:
-In Frontend : HTML, CSS, BOOTSTRAP, JS.
-In Backend : Mysql, phpMyAdmin.
 
